@@ -56,13 +56,17 @@
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/content_encoding.c"/>
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/cookie.c"/>
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/curl_addrinfo.c"/>
+		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/curl_ctype.c"/>
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/curl_des.c"/>
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/curl_endian.c"/>
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/curl_fnmatch.c"/>
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/curl_gethostname.c"/>
+		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/curl_get_line.c"/>
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/curl_memrchr.c"/>
+		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/curl_range.c"/>
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/curl_threads.c"/>
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/dict.c"/>
+		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/doh.c"/>
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/easy.c"/>
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/escape.c"/>
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/file.c"/>
@@ -102,6 +106,8 @@
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/rtsp.c"/>
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/select.c"/>
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/sendf.c"/>
+		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/setopt.c"/>
+		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/sha256.c"/>
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/share.c"/>
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/slist.c"/>
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/smb.c"/>
@@ -119,6 +125,7 @@
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/timeval.c"/>
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/transfer.c"/>
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/url.c"/>
+		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/urlapi.c"/>
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/version.c"/>
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/warnless.c"/>
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/wildcard.c"/>
@@ -127,7 +134,6 @@
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/asyn-ares.c" if="windows" />
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/asyn-thread.c" />
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/conncache.c" />
-		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/pipeline.c" />
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/dotdot.c" />
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/hostcheck.c" />
 		<file name="${NATIVE_TOOLKIT_PATH}/curl/lib/curl_ntlm_core.c" />
